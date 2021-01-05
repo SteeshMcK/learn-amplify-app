@@ -1,0 +1,13 @@
+#nameField {
+    width: 200px;
+    height: 30px;
+}
+
+#submitBtn {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: bold;
+    line-height: 15px;
+}

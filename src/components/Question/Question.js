@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Question.css'
 
 const Question  = () => {
     const [userName, setUserName] = useState({
@@ -17,10 +18,10 @@ const Question  = () => {
             <form id='questionForm' onSubmit={handleSubmit}>
                 <label>What is your name?
                     <br />
-                    <input type='text' name='name' placeholder='name' value={userName.name} required onChange={handleInputChange}/>
+                    <input type='text' id='nameField' name='name' placeholder='name' value={userName.name} required onChange={handleInputChange}/>
                 </label>
                 <br />
-                <input type="submit" value="submit name" />
+                <input type="submit" id='submitBtn' value="SUBMIT NAME" />
             </form>
         </div> 
     )

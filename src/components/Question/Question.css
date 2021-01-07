@@ -1,13 +1,38 @@
+body {
+    background-color: #020202;
+}
+
+.question {
+    color: cornsilk;
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+label {
+    font-size: 4em;
+}
+
 #nameField {
     width: 200px;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 #submitBtn {
-    background-color: cornflowerblue;
+    background-color: darkkhaki;
+    color: #020202;
     width: 150px;
     height: 30px;
     border-radius: 25px;
-    font-size: bold;
     line-height: 15px;
+}
+
+.greetingsYall {
+    color: burlywood;
+    font-size: 4em;
 }

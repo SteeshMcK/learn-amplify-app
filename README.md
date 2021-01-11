@@ -6,6 +6,7 @@ So far...
 3. ~Log into AWS Management Console~  
 4. ~Deploy app with AWS Amplify~
 5. ~Initialize a Local Amplify App~
-6. Install the Amplify Libraries
+6. ~Install the Amplify Libraries (Authorization)~
+7. Add GraphQL API and Database
 
 Find it here => [Deployed using AWS Amplify](https://main.dfvy6pwraetqi.amplifyapp.com/)
